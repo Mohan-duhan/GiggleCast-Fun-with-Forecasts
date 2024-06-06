@@ -1,0 +1,35 @@
+.InfoBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .cardContainer {
+    position: relative;
+    width: 100%;
+    max-width: 345px;
+    margin: auto;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+  }
+  
+  .cardContent {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
