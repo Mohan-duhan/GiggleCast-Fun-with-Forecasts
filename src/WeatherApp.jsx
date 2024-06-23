@@ -1,7 +1,7 @@
 import SearchBox from "./SearchBox";
 import InfoBox from "./InfoBox";
 import { useState } from "react";
-import { set } from "mongoose";
+
 
 export default function WeatherApp() {
   const [WeatherInfo, setWeatherInfo] = useState({
